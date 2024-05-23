@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 
+<!--
+    This templates comes from W3School (https://www.w3schools.com/w3css/tryw3css_templates_start_page.htm).
+     All Credit goes to those guys.
+-->
+
 <html>
     <head>
-        <title>Hello world</title>
+        <title>EpitechNice | Projects documentations</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+            .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+            .fa-anchor,.fa-coffee {font-size:200px}
+        </style>
     </head>
     <body>
-        <h1>Hello world !</h1>
-        <h2>So, in theorie, now it works ?</h2>
+
+    <!-- Header -->
+    <header class="w3-container w3-red w3-center" style="padding:128px 16px">
+        <h1 class="w3-margin w3-jumbo">EpitechNice | Projects documentations</h1>
+        <p class="w3-xlarge">Here are all projects documentations made within the <a href="https://github.com/EpitechNice/">EpitechNice</a> Github organisation</p>
+    </header>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>What is this website ?</h1>
+                <h5 class="w3-padding-32">This organisation aims to simplify the development and deployment of projects made within the Epitech school.</h5>
+
+                <p class="w3-text-grey">While making C/C++ projects can be easy, or hard, we all know that writing documentation by hand is annoying (At least it's our opinion).<br>
+                    This is why we made this "tool".<br>
+                    The idea was to have an automated way to :
+                    <ul class="w3-text-grey">
+                        <li>Check for errors in the code itself</li>
+                        <li>Check for logic errors (using unit testing)</li>
+                        <li>Check for coding-style errors</li>
+                        <li>Build technical documentation</li>
+                        <li>Get a report directly on Discord</li>
+                        <li>If (and only if) everything went good, mirror the project to the actual school repository</li>
+                    </ul>
+                </p>
+                <p class="w3-text-grey">
+                    I'me glad to say that this is now possible using Github Actions<br>
+                    Each time a modification is made on the main branch of a project, a Github Action is ran, which does all the above.<br>
+                    This website is the place you will be able to find all the documentations for these projects.
+                </p>
+            </div>
+
+            <div class="w3-third w3-center">
+            <i class="fa fa-coffee w3-padding-64 w3-text-red"></i>
+            </div>
+        </div>
+    </div>
+
+        <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+            <h1 class="w3-margin w3-xlarge">Support us <a href="https://github.com/EpitechNice/">here</a></h1>
+        </div>
     </body>
 </html>
