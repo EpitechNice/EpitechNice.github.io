@@ -6,30 +6,30 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Main project group">
+        <meta name="description" content="Library adding logging and input manager">
       
       
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../heap/">
       
       
-        <link rel="next" href="server/">
+        <link rel="next" href="../mlist/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.25">
     
     
       
-        <title>Zappy - EPITECH-Zappy</title>
+        <title>libinput_output - EPITECH-Zappy</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.6543a935.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6543a935.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/doxide.css">
+      <link rel="stylesheet" href="../../../stylesheets/doxide.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#zappy" class="md-skip">
+        <a href="#libinput_output" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="EPITECH-Zappy" class="md-header__button md-logo" aria-label="EPITECH-Zappy" data-md-component="logo">
+    <a href="../../.." title="EPITECH-Zappy" class="md-header__button md-logo" aria-label="EPITECH-Zappy" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Zappy
+              libinput_output
             
           </span>
         </div>
@@ -213,7 +213,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="EPITECH-Zappy" class="md-nav__button md-logo" aria-label="EPITECH-Zappy" data-md-component="logo">
+    <a href="../../.." title="EPITECH-Zappy" class="md-nav__button md-logo" aria-label="EPITECH-Zappy" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -231,7 +231,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -273,7 +273,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -284,7 +284,7 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_2" id="__nav_2_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -303,6 +303,8 @@
                 
   
   
+    
+  
   
   
     
@@ -321,16 +323,16 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="server/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -347,7 +349,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             Server
@@ -381,7 +383,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="server/heap/" class="md-nav__link ">
+            <a href="../heap/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -414,6 +416,8 @@
                 
   
   
+    
+  
   
   
     
@@ -426,16 +430,16 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="server/io/" class="md-nav__link ">
+            <a href="./" class="md-nav__link md-nav__link--active">
               
   
   <span class="md-ellipsis">
@@ -447,7 +451,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2_3">
             <span class="md-nav__icon md-icon"></span>
             Io
@@ -489,7 +493,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="server/mlist/" class="md-nav__link ">
+            <a href="../mlist/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -553,6 +557,83 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Functions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#function-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Function Details
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Function Details">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#call_infos" class="md-nav__link">
+    <span class="md-ellipsis">
+      call_infos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#display_buffer" class="md-nav__link">
+    <span class="md-ellipsis">
+      display_buffer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get_log_level" class="md-nav__link">
+    <span class="md-ellipsis">
+      get_log_level
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#log_data" class="md-nav__link">
+    <span class="md-ellipsis">
+      log_data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set_log_level" class="md-nav__link">
+    <span class="md-ellipsis">
+      set_log_level
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -566,12 +647,103 @@
                   
 
 
-<h1 id="zappy">Zappy</h1>
-<p>Main project group</p>
+<h1 id="libinput_output">libinput_output</h1>
+<p>Library adding logging and input manager</p>
+<h2 id="functions">Functions</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#call_infos">call_infos</a></td>
+<td>Stack the 3 arguments in a struct.</td>
+</tr>
+<tr>
+<td><a href="#display_buffer">display_buffer</a></td>
+<td>Display the buffer.</td>
+</tr>
+<tr>
+<td><a href="#get_log_level">get_log_level</a></td>
+<td>Getter for the log level</td>
+</tr>
+<tr>
+<td><a href="#log_data">log_data</a></td>
+<td>Log data. Used with the LOG macro</td>
+</tr>
+<tr>
+<td><a href="#set_log_level">set_log_level</a></td>
+<td>Setter for the log level</td>
+</tr>
+</tbody>
+</table>
+<h2 id="function-details">Function Details</h2>
+<h3 id="call_infos">call_infos<a name="call_infos"></a></h3>
+<div class="admonition function">
+<p class="admonition-title">call_infos_t &#42;call_infos(const char &#42;file, size_t line, const char &#42;func)</p>
+<p>Stack the 3 arguments in a struct.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Globally no reason tu manually use that function.
+Part of the LOG macro</p>
+</div>
+</div>
+<h3 id="display_buffer">display_buffer<a name="display_buffer"></a></h3>
+<div class="admonition function">
+<p class="admonition-title">void display_buffer(void)</p>
+<p>Display the buffer.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This function is usefull when displaying other infos at the same time
+(like logs <img alt="👍" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f44d.svg" title=":thumbsup:" />)</p>
+</div>
+</div>
+<h3 id="get_log_level">get_log_level<a name="get_log_level"></a></h3>
+<div class="admonition function">
+<p class="admonition-title">log_level_t get_log_level(void)</p>
+<p>Getter for the log level</p>
 <dl>
-<dt><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.67 4.42a6.08 6.08 0 0 0-3.22-.86c-1.58 0-2.79.78-2.79 2 0 1.4 1.34 1.91 3.34 2.58 2.5.81 4.4 1.83 4.4 4.24a4.01 4.01 0 0 1-1.8 3.23c.65.61 1.01 1.47 1 2.36 0 2.82-2.6 4-5.1 4-1.46.06-2.91-.33-4.15-1.1L8 19.34c1.04.71 2.27 1.09 3.53 1.1 1.72 0 3-.78 3-2.2 0-1.24-.78-1.93-3.28-2.79C8.5 14.5 6.6 13.5 6.6 11.21c.07-1.32.83-2.52 2-3.14-.63-.57-.99-1.4-1-2.26C7.6 3.45 9.77 2 12.53 2c1.29 0 2.56.29 3.7.89l-.56 1.53m-4.32 9c1.06.33 2.09.76 3.06 1.29.65-.49 1.02-1.26 1-2.07 0-1-.64-1.88-2.41-2.5-1.11-.37-2.22-.83-3.28-1.37-.75.45-1.22 1.26-1.22 2.14 0 .97.73 1.77 2.85 2.51Z"/></svg></span> <a href="server/">Server</a></dt>
-<dd>Server side of the Zappy project</dd>
+<dt><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.42L5.83 13H21V7h-2Z"/></svg></span> <strong>Return</strong></dt>
+<dd>The current logging level</dd>
 </dl>
+<p>The logging have 5 levels:
+- DEBUG - basicly any dev-axed infos
+- INFO - normal information for the user
+- WARNING - something went wrong, but it's not a big deal
+- ERROR - something went wrong and it's kinda important
+- CRITICAL - something went horribly wrong and will 100% break.
+These are represented by the following constants (variables of the enum
+log_level_t) :
+- LOG_LEVEL_DEBUG
+- LOG_LEVEL_INFO
+- LOG_LEVEL_WARNING
+- LOG_LEVEL_ERROR
+- LOG_LEVEL_CRITICAL</p>
+</div>
+<h3 id="log_data">log_data<a name="log_data"></a></h3>
+<div class="admonition function">
+<p class="admonition-title">void log_data(log_level_t level, const char &#42;message, call_infos_t &#42;infos)</p>
+<p>Log data. Used with the LOG macro</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p><strong>DO NOT USE IT RAW</strong> !!!
+There is a LOG macro (taking a level and a message as parameter).
+You <strong>HAVE TO</strong> use the macro, and not the log_data function.
+Unfortunatly, no protections have been implemented, cause we can't.</p>
+</div>
+</div>
+<h3 id="set_log_level">set_log_level<a name="set_log_level"></a></h3>
+<div class="admonition function">
+<p class="admonition-title">void set_log_level(log_level_t level)</p>
+<p>Setter for the log level</p>
+<dl>
+<dt><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14 12-4-4v3H2v2h8v3m12-4a10 10 0 0 1-19.54 3h2.13a8 8 0 1 0 0-6H2.46A10 10 0 0 1 22 12Z"/></svg></span> <strong>Parameter</strong> <code>level</code></dt>
+<dd>New logging level, ranging from DEBUG to CRITICAL</dd>
+</dl>
+</div>
 
 
 
@@ -621,12 +793,12 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.indexes"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.081f42fc.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.081f42fc.min.js"></script>
       
-        <script src="../javascripts/mathjax.js"></script>
+        <script src="../../../javascripts/mathjax.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
