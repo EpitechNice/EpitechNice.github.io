@@ -6,30 +6,30 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Main project group">
+        <meta name="description" content="Class used to declare custom Exceptions <a name="exceptions"></a>">
       
       
       
       
-        <link rel="prev" href="../Exceptions/UnknownTranslationKey/">
+        <link rel="prev" href="../ConnexionServeurFail/">
       
       
-        <link rel="next" href="GUI/">
+        <link rel="next" href="../TranslationFileNotFound/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.27">
     
     
       
-        <title>Zappy - Zappy</title>
+        <title>Exception - Zappy</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.6543a935.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/doxide.css">
+      <link rel="stylesheet" href="../../stylesheets/doxide.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#zappy" class="md-skip">
+        <a href="#exception" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Zappy" class="md-header__button md-logo" aria-label="Zappy" data-md-component="logo">
+    <a href="../.." title="Zappy" class="md-header__button md-logo" aria-label="Zappy" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Zappy
+              Exception
             
           </span>
         </div>
@@ -213,7 +213,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Zappy" class="md-nav__button md-logo" aria-label="Zappy" data-md-component="logo">
+    <a href="../.." title="Zappy" class="md-nav__button md-logo" aria-label="Zappy" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -231,7 +231,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -248,6 +248,8 @@
       
   
   
+    
+  
   
   
     
@@ -270,16 +272,16 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../Exceptions/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -296,7 +298,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Exceptions
@@ -330,7 +332,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../Exceptions/ConnexionServeurFail/" class="md-nav__link ">
+            <a href="../ConnexionServeurFail/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -363,6 +365,8 @@
                 
   
   
+    
+  
   
   
     
@@ -375,16 +379,16 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../Exceptions/Exception/" class="md-nav__link ">
+            <a href="./" class="md-nav__link md-nav__link--active">
               
   
   <span class="md-ellipsis">
@@ -396,7 +400,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
             Exception
@@ -438,7 +442,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../Exceptions/TranslationFileNotFound/" class="md-nav__link ">
+            <a href="../TranslationFileNotFound/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -492,7 +496,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../Exceptions/UnknownLocale/" class="md-nav__link ">
+            <a href="../UnknownLocale/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -546,7 +550,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../Exceptions/UnknownTranslationKey/" class="md-nav__link ">
+            <a href="../UnknownTranslationKey/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -586,8 +590,6 @@
       
   
   
-    
-  
   
   
     
@@ -606,16 +608,16 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../../Zappy/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -626,13 +628,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_3" id="__nav_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Zappy
@@ -684,7 +686,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -735,7 +737,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/AScene/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/AScene/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -849,7 +851,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -900,7 +902,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/AComponent/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/AComponent/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -954,7 +956,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/Background2D/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/Background2D/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1008,7 +1010,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/Button/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/Button/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1062,7 +1064,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/ButtonClassic/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/ButtonClassic/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1116,7 +1118,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/Chatbox/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/Chatbox/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1170,7 +1172,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/Circle/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/Circle/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1224,7 +1226,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/Cube/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/Cube/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1278,7 +1280,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/DelayServerSection/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/DelayServerSection/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1332,7 +1334,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/IComponent/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/IComponent/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1386,7 +1388,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/Image/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/Image/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1440,7 +1442,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/Inspecter/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/Inspecter/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1494,7 +1496,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/InspecterInfo/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/InspecterInfo/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1548,7 +1550,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/InspecterInfoTile/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/InspecterInfoTile/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1602,7 +1604,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/InspecterSelecter/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/InspecterSelecter/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1656,7 +1658,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/InspecterSelecterGroup/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/InspecterSelecterGroup/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1710,7 +1712,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/InspecterSelecterGroupDraggable/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/InspecterSelecterGroupDraggable/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1764,7 +1766,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/Model3D/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/Model3D/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1818,7 +1820,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/Rectangle/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/Rectangle/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1872,7 +1874,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/Ressources/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/Ressources/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1926,7 +1928,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/RoundedRectangle/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/RoundedRectangle/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1980,7 +1982,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/Skybox/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/Skybox/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2034,7 +2036,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/SliderVolume/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/SliderVolume/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2088,7 +2090,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/Text/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/Text/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2142,7 +2144,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/TextBox/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/TextBox/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2196,7 +2198,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/TextGroup/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/TextGroup/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2250,7 +2252,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/TextGroupDraggable/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/TextGroupDraggable/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2304,7 +2306,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/TextMessage/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/TextMessage/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2358,7 +2360,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/Tile/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/Tile/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2412,7 +2414,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/TileMap/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/TileMap/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2466,7 +2468,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Component/VolumeSection/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Component/VolumeSection/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2528,7 +2530,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/IScene/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/IScene/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2586,7 +2588,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Parsing/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Parsing/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2637,7 +2639,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Parsing/Help/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Parsing/Help/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2691,7 +2693,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Parsing/ParsingError/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Parsing/ParsingError/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2765,7 +2767,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Raylib/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Raylib/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2816,7 +2818,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Raylib/ColorManager/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Raylib/ColorManager/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2870,7 +2872,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Raylib/FontManager/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Raylib/FontManager/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2924,7 +2926,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Raylib/ModelManager/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Raylib/ModelManager/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2978,7 +2980,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Raylib/Render/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Raylib/Render/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3032,7 +3034,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Raylib/TextureManager/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Raylib/TextureManager/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3086,7 +3088,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Raylib/View/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Raylib/View/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3158,7 +3160,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Ressources/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Ressources/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3209,7 +3211,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Ressources/Eggs/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Ressources/Eggs/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3263,7 +3265,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Ressources/Players/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Ressources/Players/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3317,7 +3319,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Ressources/Ref/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Ressources/Ref/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3371,7 +3373,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Ressources/Ressources/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Ressources/Ressources/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3425,7 +3427,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Ressources/TileRessources/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Ressources/TileRessources/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3503,7 +3505,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Scene/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Scene/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3554,7 +3556,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Scene/Credit/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Scene/Credit/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3608,7 +3610,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Scene/CreditScene/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Scene/CreditScene/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3662,7 +3664,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Scene/Game/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Scene/Game/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3716,7 +3718,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Scene/HelperScene/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Scene/HelperScene/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3770,7 +3772,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Scene/Menu/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Scene/Menu/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3824,7 +3826,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Scene/Option/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Scene/Option/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3878,7 +3880,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Scene/ResolutionOption/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Scene/ResolutionOption/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3932,7 +3934,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Scene/SoundOption/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Scene/SoundOption/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3994,7 +3996,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/SceneManager/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/SceneManager/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4050,7 +4052,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Sfml/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Sfml/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4101,7 +4103,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="GUI/Sfml/SoundManager/" class="md-nav__link ">
+            <a href="../../Zappy/GUI/Sfml/SoundManager/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4171,7 +4173,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="Mutex/" class="md-nav__link ">
+            <a href="../../Zappy/Mutex/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4233,7 +4235,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="server/" class="md-nav__link ">
+            <a href="../../Zappy/server/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4284,7 +4286,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="server/ai/" class="md-nav__link ">
+            <a href="../../Zappy/server/ai/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4338,7 +4340,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="server/dlist/" class="md-nav__link ">
+            <a href="../../Zappy/server/dlist/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4392,7 +4394,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="server/gui/" class="md-nav__link ">
+            <a href="../../Zappy/server/gui/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4446,7 +4448,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="server/io/" class="md-nav__link ">
+            <a href="../../Zappy/server/io/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4510,6 +4512,107 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Operators
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Functions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operator-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Operator Details
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Operator Details">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      operator&lt;&lt;
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#function-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Function Details
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Function Details">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exception_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exception
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getclassname" class="md-nav__link">
+    <span class="md-ellipsis">
+      getClassName
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getinfos" class="md-nav__link">
+    <span class="md-ellipsis">
+      getInfos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what" class="md-nav__link">
+    <span class="md-ellipsis">
+      what
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -4523,12 +4626,105 @@
                   
 
 
-<h1 id="zappy">Zappy</h1>
-<p>Main project group</p>
+<h1 id="exception">Exception</h1>
+<p><strong>class Exception: public std::exception</strong></p>
+<p>Class used to declare custom Exceptions</p>
+<p><a name="exceptions"></a></p>
+<h2 id="operators">Operators</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#operator_u003c_u003c">operator&lt;&lt;</a></td>
+<td>Get the message of the exception</td>
+</tr>
+</tbody>
+</table>
+<h2 id="functions">Functions</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#Exception">Exception</a></td>
+<td>Construct a new Exception object</td>
+</tr>
+<tr>
+<td><a href="#getClassName">getClassName</a></td>
+<td>Get the class name of the exception</td>
+</tr>
+<tr>
+<td><a href="#getInfos">getInfos</a></td>
+<td>Get the position of the exception</td>
+</tr>
+<tr>
+<td><a href="#what">what</a></td>
+<td>Get the message of the exception</td>
+</tr>
+</tbody>
+</table>
+<h2 id="operator-details">Operator Details</h2>
+<h3 id="operator">operator&lt;&lt;<a name="operator_u003c_u003c"></a></h3>
+<div class="admonition function">
+<p class="admonition-title">std::ostream&amp; operator&lt;&lt;(std::ostream&amp; os, const Exceptions::Exception&amp; obj)</p>
+<p>Get the message of the exception</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This function is friend with the <code>std::ostream</code> class</p>
+</div>
 <dl>
-<dt><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.67 4.42a6.08 6.08 0 0 0-3.22-.86c-1.58 0-2.79.78-2.79 2 0 1.4 1.34 1.91 3.34 2.58 2.5.81 4.4 1.83 4.4 4.24a4.01 4.01 0 0 1-1.8 3.23c.65.61 1.01 1.47 1 2.36 0 2.82-2.6 4-5.1 4-1.46.06-2.91-.33-4.15-1.1L8 19.34c1.04.71 2.27 1.09 3.53 1.1 1.72 0 3-.78 3-2.2 0-1.24-.78-1.93-3.28-2.79C8.5 14.5 6.6 13.5 6.6 11.21c.07-1.32.83-2.52 2-3.14-.63-.57-.99-1.4-1-2.26C7.6 3.45 9.77 2 12.53 2c1.29 0 2.56.29 3.7.89l-.56 1.53m-4.32 9c1.06.33 2.09.76 3.06 1.29.65-.49 1.02-1.26 1-2.07 0-1-.64-1.88-2.41-2.5-1.11-.37-2.22-.83-3.28-1.37-.75.45-1.22 1.26-1.22 2.14 0 .97.73 1.77 2.85 2.51Z"/></svg></span> <a href="server/">Server</a></dt>
-<dd>Server side of the Zappy project</dd>
+<dt><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.42L5.83 13H21V7h-2Z"/></svg></span> <strong>Return</strong></dt>
+<dd><code>std::string</code> The message of the exception</dd>
 </dl>
+</div>
+<h2 id="function-details">Function Details</h2>
+<h3 id="exception_1">Exception<a name="Exception"></a></h3>
+<div class="admonition function">
+<p class="admonition-title">Exception(std::string what = &quot;An exception occured !&quot;, std::pair&lt;std::string, std::pair&lt;std::string, std::size_t&gt;&gt; position = {&quot;&quot;, {&quot;&quot;, 0}})</p>
+<p>Construct a new Exception object</p>
+<dl>
+<dt><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14 12-4-4v3H2v2h8v3m12-4a10 10 0 0 1-19.54 3h2.13a8 8 0 1 0 0-6H2.46A10 10 0 0 1 22 12Z"/></svg></span> <strong>Parameter</strong> <code>what</code></dt>
+<dd>The message of the exception. Default is "An exception occured !"</dd>
+<dt><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14 12-4-4v3H2v2h8v3m12-4a10 10 0 0 1-19.54 3h2.13a8 8 0 1 0 0-6H2.46A10 10 0 0 1 22 12Z"/></svg></span> <strong>Parameter</strong> <code>position</code></dt>
+<dd>The position of the exception. Default is {"", {"", 0}}</dd>
+</dl>
+</div>
+<h3 id="getclassname">getClassName<a name="getClassName"></a></h3>
+<div class="admonition function">
+<p class="admonition-title">std::string getClassName() const</p>
+<p>Get the class name of the exception</p>
+<dl>
+<dt><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.42L5.83 13H21V7h-2Z"/></svg></span> <strong>Return</strong></dt>
+<dd><code>std::string</code> The class name of the exception</dd>
+</dl>
+</div>
+<h3 id="getinfos">getInfos<a name="getInfos"></a></h3>
+<div class="admonition function">
+<p class="admonition-title">std::pair&lt;std::string, std::pair&lt;std::string, std::size_t&gt;&gt; getInfos() const</p>
+<p>Get the position of the exception</p>
+<dl>
+<dt><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.42L5.83 13H21V7h-2Z"/></svg></span> <strong>Return</strong></dt>
+<dd><code>std::pair&lt;std::string, std::pair&lt;std::string, std::size_t&gt;&gt;</code> The position of the exception</dd>
+</dl>
+</div>
+<h3 id="what">what<a name="what"></a></h3>
+<div class="admonition function">
+<p class="admonition-title">const char&#42; what() const noexcept override</p>
+<p>Get the message of the exception</p>
+<dl>
+<dt><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.42L5.83 13H21V7h-2Z"/></svg></span> <strong>Return</strong></dt>
+<dd><code>const char*</code> The message of the exception</dd>
+</dl>
+</div>
 
 
 
@@ -4578,12 +4774,12 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
-        <script src="../javascripts/mathjax.js"></script>
+        <script src="../../javascripts/mathjax.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
